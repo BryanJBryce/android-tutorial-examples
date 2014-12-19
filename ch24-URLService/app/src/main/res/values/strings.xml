@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">URL Service</string>
+    <string name="action_view">View pages</string>
+    <string name="title_activity_view">View</string>
+
+</resources>

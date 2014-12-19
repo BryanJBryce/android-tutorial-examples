@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:text="@string/button_animate1"
+            android:textColor="#ff4433"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="animate1"/>
+        <Button
+            android:id="@+id/button2"
+            android:text="@string/button_animate2"
+            android:textColor="#33ff33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="animate2"/>
+        <Button
+            android:id="@+id/button3"
+            android:text="@string/button_animate3"
+            android:textColor="#3398ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="animate3"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:src="@drawable/photo1" />
+
+
+</LinearLayout> 

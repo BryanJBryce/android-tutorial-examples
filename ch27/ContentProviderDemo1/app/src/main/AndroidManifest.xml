@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.contentproviderdemo1" >
+
+    <permission
+        android:name="com.example.permission.READ_ELECTRIC_CARS"
+        android:protectionLevel="normal"/>
+    <permission
+        android:name="com.example.permission.WRITE_ELECTRIC_CARS"
+        android:protectionLevel="normal"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AddElectricCarActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.ShowElectricCarActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <provider
+            android:name=".provider.ElectricCarContentProvider"
+            android:authorities="com.example.contentproviderdemo1"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.example.permission.READ_ELECTRIC_CARS"
+            android:writePermission="com.example.permission.WRITE_ELECTRIC_CARS">
+        </provider>
+    </application>
+
+</manifest>

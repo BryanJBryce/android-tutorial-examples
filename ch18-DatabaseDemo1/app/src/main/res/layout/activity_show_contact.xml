@@ -1,0 +1,41 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+
+    <TableRow
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+        <TextView android:text="@string/first_name"
+            android:paddingRight="10dip"/>
+        <TextView android:id="@id/firstName"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        <TextView android:text="@string/last_name"
+            android:paddingRight="10dip"/>
+        <TextView android:id="@id/lastName"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        <TextView android:text="@string/phone"
+            android:paddingRight="10dip"/>
+        <TextView android:id="@id/phone" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        <TextView android:text="@string/email"
+            android:paddingRight="10dip"/>
+        <TextView android:id="@id/email"/>
+    </TableRow>
+</TableLayout>

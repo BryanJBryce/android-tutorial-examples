@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BitmapDemo</string>
+    <string name="text_sample_size">Sample Size:</string>
+    <string name="text_content_desc">Bitmap</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_change_image">Change Image</string>
+    <string name="action_scale_up">Scale Up</string>
+    <string name="action_scale_down">Scale Down</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CameraDemo</string>
+    <string name="action_show_camera">Show Camera</string>
+    <string name="action_email">Email</string>
+
+</resources>

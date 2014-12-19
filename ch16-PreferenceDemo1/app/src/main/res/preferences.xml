@@ -1,0 +1,23 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Category 1">
+        <CheckBoxPreference
+            android:key="allowMultipleUsers"
+            android:title="Allow multiple users"
+            android:summary="Allow multiple users" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Category 2">
+        <EditTextPreference
+            android:key="envId"
+            android:title="Environment Id"
+            android:dialogTitle="Environment Id"/>
+        <EditTextPreference
+            android:key="account"
+            android:title="Account"/>
+    </PreferenceCategory>
+</PreferenceScreen>

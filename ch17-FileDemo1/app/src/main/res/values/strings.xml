@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tiny Notes</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_add_note">Add Note</string>
+    <string name="add_button_text">Add</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="note_title">Title</string>
+    <string name="note_body">Body</string>
+    
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoEditor</string>
+    <string name="blur_button_text">Blur</string>
+    <string name="invert_button_text">Invert</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
